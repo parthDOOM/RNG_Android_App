@@ -21,9 +21,6 @@ The RNG Analyzer Mobile App is an Expo (React Native) application that serves as
 
 The primary purpose is to assess the health and identify potential flaws in RNG sequences by leveraging a machine learning model deployed in the backend.
 
-### Model Architecture
-![Example Prediction on TRNG Data](/images/model.jpg)
-
 ## Features
 
 * **File Selection:** Allows users to pick `.bin` files from their device.
@@ -56,6 +53,8 @@ This mobile application relies on a separate backend API, the **RNG Flaw Detecti
     3.  Scales features and feeds them to a neural network.
     4.  Returns a prediction (e.g., "Healthy", "Biased," "Periodic") along with class probabilities.
 * **API Endpoint used by the app:** `POST /predict_bin/`
+
+## [Link to APK of application](https://drive.google.com/file/d/1QRY0aoircIA8VMbsleJYxApd4XujRfkD/view?usp=sharing)
 
 ## Screens
 
@@ -101,6 +100,10 @@ The app is organized into the following main screens, managed via a tab navigato
     * Manages the storage and retrieval of analysis history using `AsyncStorage`.
     * Provides functions to `saveAnalysisToHistory`, `getAnalysisHistory`, and `clearHistory`.
     * Defines the `HistoryItem` type for structuring saved data.
+
+
+### Model Architecture
+![Example Prediction on TRNG Data](/images/model.jpg)
 
 ## Example Predictions
 
