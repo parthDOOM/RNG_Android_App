@@ -21,6 +21,9 @@ The RNG Analyzer Mobile App is an Expo (React Native) application that serves as
 
 The primary purpose is to assess the health and identify potential flaws in RNG sequences by leveraging a machine learning model deployed in the backend.
 
+### Model Architecture
+![Example Prediction on TRNG Data](/images/model.jpg)
+
 ## Features
 
 * **File Selection:** Allows users to pick `.bin` files from their device.
