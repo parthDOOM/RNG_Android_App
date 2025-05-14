@@ -17,7 +17,7 @@
 
 ## Overview
 
-The RNG Analyzer Mobile App is an Expo (React Native) application that serves as a client for the [RNG Flaw Detection API](https://www.google.com/search?q=for_gemini/README.md). It allows users to select binary (`.bin`) files containing data from Random Number Generators (RNGs), send them to the backend API for analysis, and view the results. The app also maintains a history of past analyses and offers basic settings.
+The RNG Analyzer Mobile App is an Expo (React Native) application that serves as a client for the [RNG Flaw Detection API](https://github.com/parthDOOM/RNG_API/tree/master). It allows users to select binary (`.bin`) files containing data from Random Number Generators (RNGs), send them to the backend API for analysis, and view the results. The app also maintains a history of past analyses and offers basic settings.
 
 The primary purpose is to assess the health and identify potential flaws in RNG sequences by leveraging a machine learning model deployed in the backend.
 
@@ -53,7 +53,6 @@ This mobile application relies on a separate backend API, the **RNG Flaw Detecti
     3.  Scales features and feeds them to a neural network.
     4.  Returns a prediction (e.g., "Healthy", "Biased," "Periodic") along with class probabilities.
 * **API Endpoint used by the app:** `POST /predict_bin/`
-* For more details on the API, refer to its dedicated [README file](https://www.google.com/search?q=for_gemini/README.md).
 
 ## Screens
 
@@ -112,15 +111,13 @@ Below are examples of how the application displays predictions for different typ
 
 ![Example Prediction on Flawed Data](/images/flawed.jpg)
 
-*(Please replace the placeholder paths above with the actual paths or URLs to your images. You might want to store these images in an `assets` folder within your project and use relative paths, e.g., `./assets/IMAGE_NAME.png`)*
-
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
 * Node.js (LTS version recommended)
 * npm (Node Package Manager) or Yarn
 * Expo CLI: `npm install -g expo-cli`
-* A running instance of the [RNG Flaw Detection API](https://www.google.com/search?q=for_gemini/README.md) accessible via a URL.
+* A running instance of the [RNG Flaw Detection API](https://github.com/parthDOOM/RNG_API/tree/master) accessible via a URL.
 
 ## Setup and Local Execution
 
