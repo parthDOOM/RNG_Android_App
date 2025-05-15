@@ -54,9 +54,9 @@ This mobile application relies on a separate backend API, the **RNG Flaw Detecti
     4.  Returns a prediction (e.g., "Healthy", "Biased," "Periodic") along with class probabilities.
 * **API Endpoint used by the app:** `POST /predict_bin/`
 
-## [Link to APK of application](https://drive.google.com/file/d/1QRY0aoircIA8VMbsleJYxApd4XujRfkD/view?usp=sharing)
+## [Link to APK of application](https://drive.google.com/drive/folders/1ytGOar-Vz_nelym4fFeChr8_-v1zZ4zk?usp=sharing)
 
-## [Demonstration Video for App](https://drive.google.com/file/d/1lrACEeDUCvn1KXHEUr6Zh719v9X9TNw8/view?usp=sharing)
+## [Demonstration Video for App](https://drive.google.com/file/d/1R4jmpvTQAP2gMUdFqqiOVSZMLgcqPIu3/view?usp=sharing)
 
 ## Screens
 
