@@ -58,6 +58,8 @@ This mobile application relies on a separate backend API, the **RNG Flaw Detecti
 
 ## [Demonstration Video for App](https://drive.google.com/file/d/1R4jmpvTQAP2gMUdFqqiOVSZMLgcqPIu3/view?usp=sharing)
 
+## [API Repository](https://github.com/parthDOOM/RNG_API/tree/master)
+
 ## Screens
 
 The app is organized into the following main screens, managed via a tab navigator:
